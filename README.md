@@ -35,7 +35,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 1.6. По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачайте дамп базы данных.  
 1.7. Восстановите дамп в базу данных.  
 1.8. При работе в IDE сформируйте ER-диаграмму получившейся базы данных. При работе в командной строке используйте команду для получения всех таблиц базы данных. (скриншот)
-`Приведите ответ в свободной форме........`
+
 
 #### Ответ:  
 1.1
@@ -49,23 +49,27 @@ CREATE USER 'sys_temp'@'%' INDENTIFIED BY '12345'
 SELECT user, host FROM mysql.user; 
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
+![Task1-3](https://github.com/cat2611/ddl-hw/blob/main/img/1-3.PNG)  
 1.4
 ```
 GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'%'
 ```
-
 1.5
 ```
-SHOW GRANTS FOR 'sys_temp'@'%';
+SHOW GRANTS FOR 'sys_temp'@'%';  
 ```
-1.6
-```
-```
+![Task1-5](https://github.com/cat2611/ddl-hw/blob/main/img/tasc1.5.PNG)  
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
+1.6
+![Task1-6](https://github.com/cat2611/ddl-hw/blob/main/img/task1.6.PNG)  
+
+1.7  
+БД была восстановлена средствами Dbeaver:
+Tools -> Restore Database  
+
+1.8
+![Task1-6](https://github.com/cat2611/ddl-hw/blob/main/img/task1.8.PNG)  
+
 ---
 
 ### Задание 2
