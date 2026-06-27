@@ -39,8 +39,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 #### Ответ:  
 1.1
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
+![Task1-1](https://github.com/cat2611/ddl-hw/blob/main/img/task1.1.PNG)
 1.2
 ```
 CREATE USER 'sys_temp'@'%' INDENTIFIED BY '12345'
